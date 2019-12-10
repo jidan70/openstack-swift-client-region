@@ -1,0 +1,48 @@
+{
+  "name": "openstack-swift-client-region",
+  "version": "2.2.0",
+  "description": "Connects to OpenStack Swift storage servers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanodefaria/swift-client.git"
+  },
+  "keywords": [
+    "openstack",
+    "swift",
+    "storage",
+    "api",
+    "brightbox",
+    "orbit",
+    "rackspace"
+  ],
+  "author": "Jordan Chevalier",
+  "contributors": [
+    "Stewart MacKenzie-Leigh",
+    "Jordan Chevalier"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanodefaria/swift-client/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "query-string": "^6.1.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "url-parse": "^1.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "5.2.0"
+  }
+}
