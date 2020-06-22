@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stefanodefaria/swift-client.git"
+    "url": "git+https://github.com/jidan70/openstack-swift-client-region.git"
   },
   "keywords": [
     "openstack",
@@ -29,7 +29,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stefanodefaria/swift-client/issues"
+    "url": "https://github.com/jidan70/openstack-swift-client-region/issues"
   },
   "engines": {
     "node": ">=4"
